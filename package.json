@@ -1,0 +1,24 @@
+{
+	"name": "express-hmr",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node ./src/index.js",
+		"build": "webpack --config webpack/webpack.config.server.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Jacob Wejendorp <jacob@wejendorp.dk> (http://dorp.io)",
+	"license": "MIT",
+	"dependencies": {
+		"@babel/core": "^7.0.1",
+		"babel-loader": "^8.0.2",
+		"body-parser": "^1.18.3",
+		"express": "^4.16.3",
+		"source-map-support": "^0.5.9",
+		"webpack": "^4.19.0",
+		"webpack-cli": "^3.1.0",
+		"webpack-node-externals": "^1.7.2"
+	}
+}
